@@ -15,15 +15,10 @@
         android:textSize="50dp"
         android:text="NotenTool"/>
 
-    <Button
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/google_signIn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:drawableLeft="G"
-        android:elevation="8dp"
-        android:text="Sign In with Google"
-        android:textColor="#fff"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

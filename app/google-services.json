@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "510880549359",
+    "firebase_url": "https://m2261-notentool.firebaseio.com",
+    "project_id": "m2261-notentool",
+    "storage_bucket": "m2261-notentool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510880549359:android:59037e546829b9350ece1a",
+        "android_client_info": {
+          "package_name": "com.example.m226_1_notentool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510880549359-iefqelchlaaa8r8j40ltrea89mbmqp21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.m226_1_notentool",
+            "certificate_hash": "ac415d138f13d0ea2abd35bee274af55096a4037"
+          }
+        },
+        {
+          "client_id": "510880549359-r166d0rfum1lng4fglhbmkdmfmlv40gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUiBC2w4u7ItTFSv1wU14hWj5iTiTtahs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510880549359-r166d0rfum1lng4fglhbmkdmfmlv40gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
