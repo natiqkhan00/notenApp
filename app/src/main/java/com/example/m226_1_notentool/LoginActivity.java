@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
 
         createRequest();
 
-        findViewById(R.id.google_signIn).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.googleSignIn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 signIn();
