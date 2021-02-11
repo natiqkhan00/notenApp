@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private final static int RC_SIGN_IN = 123;
     private FirebaseAuth mAuth;
-    private static final String TAG = "GoogleActivity";
+    private static final String TAG = "LoginActivity";
 
     @Override
     protected void onStart() {
@@ -112,6 +112,4 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
-
-
 }
