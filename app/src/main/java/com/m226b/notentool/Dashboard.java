@@ -1,4 +1,4 @@
-package com.example.m226_1_notentool;
+package com.m226b.notentool;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -15,8 +15,8 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
         imageView = findViewById(R.id.profilePicture);
 
-        ImageLoader imageLoader = new ImageLoader();
-        Thread thread = new Thread(imageLoader);
+        ProfilePictureLoader profilePictureLoader = new ProfilePictureLoader();
+        Thread thread = new Thread(profilePictureLoader);
         thread.start();
 
         try {
@@ -25,7 +25,7 @@ public class Dashboard extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        Bitmap bmp = imageLoader.getImage();
+        Bitmap bmp = profilePictureLoader.getImage();
         imageView.setImageBitmap(bmp);
     }
 }

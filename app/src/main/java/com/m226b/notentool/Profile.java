@@ -1,4 +1,4 @@
-package com.example.m226_1_notentool;
+package com.m226b.notentool;
 
 import android.content.Intent;
 import android.os.Bundle;

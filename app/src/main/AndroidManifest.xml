@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.m226_1_notentool">
+    package="com.m226b.notentool">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".Dashboard" />
-        <activity android:name=".Profile" />
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.m226b.notentool.Dashboard" />
+        <activity android:name="com.m226b.notentool.Profile" />
+        <activity android:name="com.m226b.notentool.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

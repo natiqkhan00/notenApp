@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">M226_1-NotenTool</string>
-    <string name="profilePictureContentDescription">Profile Picture of current User</string>
-    <string name="appTitleText">Notenapp</string>
-    <string name="dashboardText">Dashboard</string>
+    <string name="app_name">Notentool</string>
+    <!-- Profile -->
+    <string name="profile_logout">Logout</string>
+    <string name="profile_dashboard">Dashboard</string>
+    <!-- Dashboard -->
+    <string name="dashboard_profile_picture_description">Profile Picture of current User</string>
 </resources>
