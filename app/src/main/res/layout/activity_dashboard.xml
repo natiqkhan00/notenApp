@@ -47,20 +47,10 @@
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
-        <RelativeLayout
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/semesterList" />
 
-            <TextView
-                android:id="@+id/test"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cards"
-                android:textColor="#FFF"
-                android:textSize="30sp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"/>
-
-        </RelativeLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
