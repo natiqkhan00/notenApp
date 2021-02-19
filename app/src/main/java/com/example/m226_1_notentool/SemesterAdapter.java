@@ -10,6 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * SemesterAdapter class acts as a bridge between an AdapterView and the underlying data for that view.
+ * The Adapter provides access to the data items. The Adapter is also responsible for making a View
+ * for each item in the data set.
+ */
 public class SemesterAdapter extends RecyclerView.Adapter<SemesterAdapter.SemesterViewHolder> {
 
     private String[] semester;
